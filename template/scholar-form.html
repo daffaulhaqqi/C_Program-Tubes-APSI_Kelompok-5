@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enroll | Portal Prestasi</title>
+  <link rel="icon" type="image/png" href="assets/images/logoportal_remove.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/colors.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body id="register" class="flex items-left text-left min-h-screen">
+  <div class="container mx-auto"  data-aos="fade-down">
+    <h1 class="form-underline font-bold text-6xl mt-10 text-center">Scholarship #1</h1>
+    <div class="flex flex-row justify-center text-center items-center my-14 mx-[450px]">
+        <img src="assets/images/lomba1.jpg" class="w-[360px] border border-[#d24d49] rounded-2xl">
+        <div class="flex-col w-full ml-16 bg-[#fafafa] px-10 py-6 rounded-2xl border border-[#d24d49]">
+            <form action="#" method="POST" class="flex-col text-left align-left justify-left">
+            <div class="text-center">
+              <p class="font-semibold text-2xl">Enrollment Form</p>
+            </div>
+            <div class="form-group mt-5">
+                <p>Full Name</p>
+                <input type="text" id="name" name="name" class="border border-black w-72 rounded-md" required>
+            </div>
+            <div class="form-group mt-2">
+                <p>NIM</p>
+                <input type="email" id="email" name="email" class="border border-black w-72 rounded-md" required>
+            </div>
+            <div class="form-group mt-2">
+                <p>Email</p>
+                <input type="password" id="password" name="password" class="border border-black w-72 rounded-md" required>
+            </div>
+            <div class="form-group mt-2">
+                <p>NIK KTP</p>
+                <input type="password" id="password_confirmation" name="password_confirmation" class="border border-black w-72 rounded-md" required>
+            </div>
+            <div class="form-group mt-2">
+                <p>Instance</p>
+                <input type="password" id="password_confirmation" name="password_confirmation" class="border border-black w-72 rounded-md" required>
+            </div>
+            <div class="form-group mt-2">
+                <p>Department</p>
+                <input type="password" id="password_confirmation" name="password_confirmation" class="border border-black w-72 rounded-md" required>
+            </div>
+            <div class="text-end">
+              <button type="submit" class="bg-[#3e975a] px-5 py-1 rounded-lg text-white hover:bg-[#45a864] mt-10 ml-24">Enroll</button>
+            </div>
+            </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="scripts/script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
